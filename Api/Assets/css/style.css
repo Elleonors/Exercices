@@ -1,0 +1,18 @@
+.jumbotron {
+  font-family: 'Srisakdi', cursive;
+}
+figure {
+  border-style: solid;
+  border-radius: 50px;
+  background-color: #E8EBEF;
+  margin: 3%;
+  opacity: 1;
+}
+.jumbotron, figure {
+  background-image: url('../Images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-size: cover;
+}
