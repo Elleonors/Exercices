@@ -1,3 +1,56 @@
+<?php
+//EX 1
+function true (){
+    return true;
+};
+//EX 2
+function chain($prenom ='Teddy'){
+    return $prenom;
+};
+//EX 3
+function chains($prenom = 'Teddy',$nom = 'Wauquier'){
+    return $prenom . ' ' . $nom;
+};
+//EX 4
+function numbers($one = 1, $two = 2){
+    if ($one > $two){
+        return "le premier nombre est plus grand";
+    } else if ($one < $two) {
+        return "le premier nombre est plus petit";
+    } else {
+        return "les deux nombres sont identiques";
+    }
+};
+//EX 5
+function fuse($one = '1', $prenom = 'Teddy'){
+    return $one . $prenom;
+};
+//EX 6
+function triparam($nom = 'Wauquier', $prenom = 'Teddy', $age = 23){
+    return "Bonjour " . $nom . " " . $prenom . ", tu as " . $age . " ans.";
+};
+//EX 7
+function agesexe($age = 23, $sexe = 'homme'){
+    if ($sexe == 'homme'){
+        $sexe = "un homme";
+    } else {
+        $sexe = "une femme";
+    };
+    if ($age >= 18){
+        $age = "majeur.";
+    } else {
+        $age = "mineur.";
+    }
+    return "Vous êtes " . $sexe . " et vous êtes " . $age;
+};
+//EX 8
+$one = null;
+$two = null;
+$three = null;
+function trinumbers( $one = 1, $two = 2, $three = 3){
+    return $one + $two + $three;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +70,50 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-center">EXCUSEZ-NOUS, CETTE PAGE EST EN TRAVEAUX</h2>
+                <h2 class="text-center">Exercice 1</h2>
+                <p><?=true();?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Exercice 2</h2>
+                <p><?=chain();?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Exercice 3</h2>
+                <p><?=chains();?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Exercice 4</h2>
+                <p><?=numbers();?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Exercice 5</h2>
+                <p><?=fuse();?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Exercice 6</h2>
+                <p><?=triparam();?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Exercice 7</h2>
+                <p><?=agesexe();?></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Exercice 8</h2>
+                <p><?=trinumbers();?></p>
             </div>
         </div>
     </div>

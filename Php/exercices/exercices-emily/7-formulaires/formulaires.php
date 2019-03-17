@@ -17,7 +17,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-center">EXCUSEZ-NOUS, CETTE PAGE EST EN TRAVEAUX</h2>
+                <form method="post" action="cible.php">
+                    <p>On insèrera ici les éléments de notre formulaire.</p>
+                </form>
             </div>
         </div>
     </div>

@@ -3,7 +3,7 @@
 ## Exercice 1
 1. Créer trois variables `nom`, `prenom` et `age` et les initialiser avec les valeurs de votre choix.
 2. Attention `age` est de type entier.
-3. Afficher leur contenu de sorte qu'on puisse lire sur le navigateur "Bonjour `prenom`, enfant de la famille `nom` ayant atteint de level `age` !". 
+3. Afficher leur contenu de sorte qu'on puisse lire sur le navigateur "Bonjour `prenom`, enfant de la famille `nom` ayant atteint le level `age` !". 
 
 ## Exercice 2
 1. Créer une variable `km`. L'initialiser à 1. Afficher son contenu.

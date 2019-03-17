@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +19,51 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-center">EXCUSEZ-NOUS, CETTE PAGE EST EN TRAVEAUX</h2>
+                <h2 class="text-center">Exercice 1</h2>
+                <button onclick="location.href='parametres.php?nom=Nemare&prenom=Jean'">ICI</button>
+                <p><?php echo $_GET['nom'] . " et " . $_GET['prenom']; ?></p>
+                <p>result : yup</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Exercice 2</h2>
+                <button onclick="location.href='parametres.php?nom=Nemare&prenom=Jean'">ICI</button>
+                <p><?php echo $_GET['age']; ?></p>
+                <p>result : nope</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Exercice 3</h2>
+                <button onclick="location.href='parametres.php?dateDebut=2/05/2016&dateFin=27/11/2016'">ICI</button>
+                <p><?php echo $_GET['dateDebut'] . " et " . $_GET['dateFin']; ?></p>
+                <p>result : yup</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Exercice 4</h2>
+                <button onclick="location.href='parametres.php?langage=PHP&serveur=LAMP'">ICI</button>
+                <p><?php echo $_GET['langage'] . " et " . $_GET['serveur']; ?></p>
+                <p>result : yup</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Exercice 5</h2>
+                <button onclick="location.href='parametres.php?semaine=12'">ICI</button>
+                <p><?php echo $_GET['semaine']; ?></p>
+                <p>result : yup</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Exercice 6</h2>
+                <button onclick="location.href='parametres.php?batiment=12&salle=101'">ICI</button>
+                <p><?php echo $_GET['batiment'] . " et " . $_GET['salle']; ?></p>
+                <p>result : yup</p>
             </div>
         </div>
     </div>
