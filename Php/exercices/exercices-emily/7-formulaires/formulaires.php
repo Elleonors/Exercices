@@ -17,9 +17,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <form method="post" action="cible.php">
-                    <p>On insèrera ici les éléments de notre formulaire.</p>
-                </form>
+                <h2 class="text-center">Exercice 1</h2>
+                <p></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+            <h2 class="text-center">Exercice 2</h2>
+            <form action="formulaires.php" method="post">
+                <p>Votre nom :  <input type="text" name="nom" /></p>
+                <p>Votre prenom :  <input type="text" name="prenom" /></p>
+                <p><input type="submit" value="ok"></p>
+            <p>Bonjour, <?php echo htmlspecialchars($_POST['nom']) . " " . htmlspecialchars($_POST['prenom']); ?>.</p>
+            </form>
             </div>
         </div>
     </div>

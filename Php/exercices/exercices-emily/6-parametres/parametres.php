@@ -1,4 +1,5 @@
 <?php
+echo "theme test";
 ?>
 <!DOCTYPE html>
 <html lang="en">
